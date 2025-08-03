@@ -5246,27 +5246,6 @@ var $author$project$Main$footer = A2(
 						]),
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Mobile: '),
-							A2(
-							$elm$html$Html$a,
-							_List_fromArray(
-								[
-									$elm$html$Html$Attributes$href('tel:+966562222690'),
-									$elm$html$Html$Attributes$class('hover:text-blue-500 transition duration-300')
-								]),
-							_List_fromArray(
-								[
-									$elm$html$Html$text('+966-56-2222-690')
-								]))
-						])),
-					A2(
-					$elm$html$Html$p,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$class('mb-2')
-						]),
-					_List_fromArray(
-						[
 							$elm$html$Html$text('WhatsApp: '),
 							A2(
 							$elm$html$Html$a,

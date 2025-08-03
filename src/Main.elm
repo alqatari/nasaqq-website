@@ -466,11 +466,12 @@ footer =
         [ div [ class "container mx-auto" ]
             [ p [ class "mb-2" ]
                 [ text "CR No. 7014302686" ]
-            , p [ class "mb-2" ]
-                [ text "Mobile: "
-                , a [ href "tel:+966562222690", class "hover:text-blue-500 transition duration-300" ]
-                    [ text "+966-56-2222-690" ]
-                ]
+
+            -- , p [ class "mb-2" ]
+            --     [ text "Mobile: "
+            --     , a [ href "tel:+966562222690", class "hover:text-blue-500 transition duration-300" ]
+            --         [ text "+966-56-2222-690" ]
+            --     ]
             , p [ class "mb-2" ]
                 [ text "WhatsApp: "
                 , a [ href "https://wa.me/966566574248", class "hover:text-blue-500 transition duration-300" ]
