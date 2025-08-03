@@ -5158,7 +5158,7 @@ var $author$project$Main$Home = 0;
 var $elm$core$Process$sleep = _Process_sleep;
 var $author$project$Main$init = function (_v0) {
 	return _Utils_Tuple2(
-		{B: 0, H: true},
+		{B: 0, H: false},
 		A2(
 			$elm$core$Task$perform,
 			function (_v1) {
@@ -5256,7 +5256,7 @@ var $author$project$Main$footer = A2(
 								]),
 							_List_fromArray(
 								[
-									$elm$html$Html$text('+966566574248')
+									$elm$html$Html$text('+966- 56- 657- 4248')
 								]))
 						])),
 					A2(
@@ -5272,7 +5272,7 @@ var $author$project$Main$footer = A2(
 							$elm$html$Html$a,
 							_List_fromArray(
 								[
-									$elm$html$Html$Attributes$href('mailto:alqatari@mac.com'),
+									$elm$html$Html$Attributes$href('mailto:hussain@nasaqq.com'),
 									$elm$html$Html$Attributes$class('hover:text-blue-500 transition duration-300')
 								]),
 							_List_fromArray(
@@ -5311,37 +5311,6 @@ var $author$project$Main$footer = A2(
 					_List_fromArray(
 						[
 							$elm$html$Html$text('© 2025 Nasaqq International. All rights reserved.')
-						])),
-					A2(
-					$elm$html$Html$div,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$class('flex justify-center space-x-6')
-						]),
-					_List_fromArray(
-						[
-							A2(
-							$elm$html$Html$a,
-							_List_fromArray(
-								[
-									$elm$html$Html$Attributes$href('#'),
-									$elm$html$Html$Attributes$class('hover:text-blue-500 transition duration-300')
-								]),
-							_List_fromArray(
-								[
-									$elm$html$Html$text('Privacy Policy')
-								])),
-							A2(
-							$elm$html$Html$a,
-							_List_fromArray(
-								[
-									$elm$html$Html$Attributes$href('#'),
-									$elm$html$Html$Attributes$class('hover:text-blue-500 transition duration-300')
-								]),
-							_List_fromArray(
-								[
-									$elm$html$Html$text('Terms of Service')
-								]))
 						]))
 				]))
 		]));

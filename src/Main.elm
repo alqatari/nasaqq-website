@@ -43,7 +43,7 @@ type Page
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( { currentPage = Home
-      , showSplash = True
+      , showSplash = False
       }
     , Task.perform (\_ -> HideSplash) (Process.sleep 3000)
     )
@@ -475,11 +475,11 @@ footer =
             , p [ class "mb-2" ]
                 [ text "WhatsApp: "
                 , a [ href "https://wa.me/966566574248", class "hover:text-blue-500 transition duration-300" ]
-                    [ text "+966566574248" ]
+                    [ text "+966- 56- 657- 4248" ]
                 ]
             , p [ class "mb-2" ]
                 [ text "Email: "
-                , a [ href "mailto:alqatari@mac.com", class "hover:text-blue-500 transition duration-300" ]
+                , a [ href "mailto:hussain@nasaqq.com", class "hover:text-blue-500 transition duration-300" ]
                     [ text "alqatari@mac.com" ]
                 ]
             , p [ class "mb-2" ]
@@ -489,11 +489,12 @@ footer =
                 ]
             , p [ class "mb-4" ]
                 [ text "© 2025 Nasaqq International. All rights reserved." ]
-            , div [ class "flex justify-center space-x-6" ]
-                [ a [ href "#", class "hover:text-blue-500 transition duration-300" ]
-                    [ text "Privacy Policy" ]
-                , a [ href "#", class "hover:text-blue-500 transition duration-300" ]
-                    [ text "Terms of Service" ]
-                ]
+
+            -- , div [ class "flex justify-center space-x-6" ]
+            --     [ a [ href "#", class "hover:text-blue-500 transition duration-300" ]
+            --         [ text "Privacy Policy" ]
+            --     , a [ href "#", class "hover:text-blue-500 transition duration-300" ]
+            --         [ text "Terms of Service" ]
+            --     ]
             ]
         ]

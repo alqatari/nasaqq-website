@@ -16,7 +16,7 @@ if [ $? -eq 0 ]; then
     echo "🎉 Build complete! Ready to run."
     echo ""
     echo "🔗 To run locally:"
-    echo "   python3 -m http.server 8000"
+    echo "   python3 -m http.server 8000 or  npx http-server -p 8000"
     echo "   Then visit: http://localhost:8000"
 else
     echo "❌ Elm compilation failed!"
