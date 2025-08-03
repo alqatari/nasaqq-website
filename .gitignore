@@ -1,0 +1,27 @@
+# Elm
+elm-stuff/
+
+# Build artifacts (we want to commit main.js for GitHub Pages)
+# main.js  # Commented out - we need this for GitHub Pages
+
+# Node modules (if any)
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
