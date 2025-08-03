@@ -5256,7 +5256,7 @@ var $author$project$Main$footer = A2(
 								]),
 							_List_fromArray(
 								[
-									$elm$html$Html$text('+966- 56- 657- 4248')
+									$elm$html$Html$text('+966-56-657-4248')
 								]))
 						])),
 					A2(

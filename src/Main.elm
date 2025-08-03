@@ -475,7 +475,7 @@ footer =
             , p [ class "mb-2" ]
                 [ text "WhatsApp: "
                 , a [ href "https://wa.me/966566574248", class "hover:text-blue-500 transition duration-300" ]
-                    [ text "+966- 56- 657- 4248" ]
+                    [ text "+966-56-657-4248" ]
                 ]
             , p [ class "mb-2" ]
                 [ text "Email: "

@@ -1,0 +1,33 @@
+{
+  "name": "nasaqq-website",
+  "version": "1.0.0",
+  "description": "Nasaqq company website built with Elm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "elm-live src/Main.elm --open --start-page=index.html -- --output=main.js",
+    "dev-debug": "elm-live src/Main.elm --open --start-page=index.html -- --output=main.js --debug",
+    "build": "elm make src/Main.elm --output=main.js --optimize",
+    "build-debug": "elm make src/Main.elm --output=main.js",
+    "serve": "python3 -m http.server 8000",
+    "deploy": "./update-website.sh",
+    "clean": "rm -f main.js"
+  },
+  "keywords": [
+    "elm",
+    "ai",
+    "fintech",
+    "algorithmic-trading",
+    "static-website"
+  ],
+  "author": "Hussain AlQatari",
+  "license": "MIT",
+  "devDependencies": {
+    "elm-live": "^4.0.2",
+    "gh-pages": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alqatari/nasaqq-website.git"
+  },
+  "homepage": "https://nasaqq.com"
+}
